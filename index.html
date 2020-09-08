@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Class-16</title>
+  </head>
+  <body>
+    
+    <h1>Components -> Card</h1>
+
+    <section class="card-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/gallery2.jpg" class="img-fluid" alt="">
+              <div class="card-body">
+                <h5 class="card-title">This is Card</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum saepe, possimus natus. Totam ut debitis iste exercitationem magnam adipisci voluptas.</p>
+                <a href="#" class="btn btn-danger">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/gallery3.jpg" class="img-fluid" alt="">
+              <div class="card-body">
+                <div class="card-header">
+                  <h5>Features</h5>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                  <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-danger">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/gallery4.jpg" class="img-fluid" alt="">
+              <div class="card-body">
+                <h5 class="card-title">This is Card</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum saepe, possimus natus. Totam ut debitis iste exercitationem magnam adipisci voluptas.</p>
+                <a href="#" class="btn btn-danger">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h1 class="my-4">Components -> Carousel</h1>
+
+    <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+
+      <!-- carousel indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-slider" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/slide.jpg" class="d-block w-100" alt="">
+          <div class="carousel-caption">
+            <h3>This is a Slider One</h3>
+            <a href="#" class="btn btn-danger">Order Now</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/slide.jpg" class="d-block w-100" alt="">
+          <div class="carousel-caption">
+            <h3>This is a Slider Tow</h3>
+            <a href="#" class="btn btn-danger">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- carousel controllers -->
+      <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" area-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" area-hidden="true"></span>
+      </a>
+    </div>
+
+    <h1 class="my-4">Components -> Collapse</h1>
+
+    <section class="coll">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              <a class="btn btn-danger" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Collapse One
+              </a>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Collapse Two
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magnam ut itaque velit? Inventore obcaecati quidem, laboriosam consectetur quis deserunt voluptas cupiditate architecto, nam, assumenda natus, doloribus voluptate ea delectus?
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#multiExample1" role="button" aria-expanded="false" aria-controls="multiExample1">Toggle first element</a>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiExample2" aria-expanded="false" aria-controls="multiExample2">Toggle second element</button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiExample1 multiExample2">Toggle both elements</button>
+            </p>
+            <div class="row">
+              <div class="col">
+                <div class="collapse multi-collapse" id="multiExample1">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="collapse multi-collapse" id="multiExample2">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordian One
+                    </button>
+                  </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Dolor hic dolorem soluta quia maxime? Ipsam neque fugit assumenda aut quasi mollitia repudiandae, earum laboriosam impedit illum error, saepe iste unde voluptates inventore veniam, perspiciatis! Illum, veniam iste. Cupiditate, debitis ad laboriosam officiis, suscipit, velit repellendus dolor eligendi, repudiandae nesciunt molestias.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordian Two
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                     Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Dolor hic dolorem soluta quia maxime? Ipsam neque fugit assumenda aut quasi mollitia repudiandae, earum laboriosam impedit illum error, saepe iste unde voluptates inventore veniam, perspiciatis! Illum, veniam iste. Cupiditate, debitis ad laboriosam officiis, suscipit, velit repellendus dolor eligendi, repudiandae nesciunt molestias.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordian Three
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                     Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Dolor hic dolorem soluta quia maxime? Ipsam neque fugit assumenda aut quasi mollitia repudiandae, earum laboriosam impedit illum error, saepe iste unde voluptates inventore veniam, perspiciatis! Illum, veniam iste. Cupiditate, debitis ad laboriosam officiis, suscipit, velit repellendus dolor eligendi, repudiandae nesciunt molestias.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h1 class="my-4">Components -> Dropdown</h1>
+
+    <section>
+      <div class="container">
+        <div class="row mb300">
+          <div class="col-md-12">
+            <div class="dropdown">
+              <button class="btn btn-info dropdown-toggle" type="button" id="dropdownlearning" data-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownlearning">
+                <a href="#" class="dropdown-item">Item 01</a>
+                <a href="#" class="dropdown-item">Item 02</a>
+                <a href="#" class="dropdown-item">Item 03</a>
+                <a href="#" class="dropdown-item">Item 04</a>
+                <a href="#" class="dropdown-item">Item 05</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h1 class="my-4">Components -> Navbar</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light my-5">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Service</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- JS links -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
